@@ -56,11 +56,11 @@ def create():
 
 if __name__ == "__main__":
     try:
-        file = open("/Users/gautamsirdeshmukh/PycharmProjects/MyProjects/Data/passwords.txt", "x")
+        file = open("/Users/gautamsirdeshmukh/MyProjects/Data/passwords.txt", "x")
     except FileExistsError:
         pass
-    file = open("/Users/gautamsirdeshmukh/PycharmProjects/MyProjects/Data/passwords.txt", "a")
-    file = "/Users/gautamsirdeshmukh/PycharmProjects/MyProjects/Data/passwords.txt"
+    file = open("/Users/gautamsirdeshmukh/MyProjects/Data/passwords.txt", "a")
+    file = "/Users/gautamsirdeshmukh/MyProjects/Data/passwords.txt"
     going = True
     while going:
         run(file)
