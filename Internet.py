@@ -27,6 +27,6 @@ def run():
         webbrowser.open(site)
 
 if __name__ == "__main__":
-    "setup()"
+    setup()
     run()
 
