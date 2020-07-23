@@ -4,7 +4,7 @@ import webbrowser
 
 
 def setup():
-    print("News Report Feed V6.3.8")
+    print("News Report Feed V8.1.7")
     time.sleep(2)
     print("Created by Gautam Sirdeshmukh")
     print("Data sourced from CNN.com, BBC.com, CNBC.com and NYTimes.com.")
@@ -18,6 +18,7 @@ def menu():
     print("(2) BBC.com")
     print("(3) CNBC.com")
     print("(4) NYTimes.com")
+    print("Press C to search by keyword")
     time.sleep(1)
     print("Press Q to Quit\n")
     time.sleep(3)
@@ -26,7 +27,7 @@ def menu():
 
 def sourceSorter():
     c = ""
-    while c not in ["1", "2", "3", "4", "q", "Q", "quit"]:
+    while c not in ["1", "2", "3", "4", "q", "Q", "quit", "c", "C"]:
         c = input("Enter choice: ").lower()
     if c == "1":
         cnn()
@@ -38,7 +39,69 @@ def sourceSorter():
         nytimes()
     if c == "q" or c == "quit":
         quit()
+    if c == "c" or c == "C":
+        custom()
 
+
+def custom():
+    compiled = []
+    print("")
+    term = input("Enter keyword: ")
+    print("")
+    reader = make_reader('db.sqlite2')
+    urls = ["http://rss.cnn.com/rss/cnn_topstories.rss",
+            "http://feeds.bbci.co.uk/news/rss.xml",
+            "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+            "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"]
+    for url in urls:
+        try:
+            reader.add_feed(url)
+        except FeedExistsError:
+            reader.remove_feed(url)
+            reader.add_feed(url)
+        reader.update_feeds()
+
+        entries = list(reader.get_entries())
+        limit = 6
+        while limit > 0:
+            for entry in entries:
+                if term in entry.title.lower() or term in entry.summary.lower():
+                    if entry not in compiled:
+                        compiled.append(entry)
+                    limit = limit - 1
+
+    if len(compiled) == 0:
+        print("No results.")
+        custom()
+
+    count = 1
+    for each in compiled:
+        print(str(count) + ".", each.title)
+        count += 1
+
+    time.sleep(5)
+    print("\nWould you like to see more about a certain article?")
+    choice = input("Enter article number or Q to quit: ")
+    if choice == "Q" or choice == "q":
+        quit()
+    else:
+        choice2 = 0
+        while choice2 < 1 or choice2 > 2:
+            choice2 = int(input("Press 1 to see more about article or 2 to open article: "))
+        if choice2 == 1:
+            print("\n" + compiled[int(choice) - 1].summary + "\n")
+            time.sleep(4)
+            choice3 = input("Would you like to open this article? (Y/N): ").lower()
+            if choice3 == "y" or choice3 == "yes":
+                webbrowser.open(compiled[int(choice) - 1].link)
+        else:
+            webbrowser.open(compiled[int(choice) - 1].link)
+
+    restart = input("New search? (Y/N): ").lower()
+    if restart == "y" or restart == "yes":
+        custom()
+    else:
+        quit()
 
 def cnn():
     print("\nChoose News Type (type number)")
@@ -163,7 +226,7 @@ def feed(url):
 
     entries = list(reader.get_entries())
     count = 1
-    for entry in entries[:15]:
+    for entry in entries[:25]:
         print(str(count) + ".", entry.title)
         count += 1
 
