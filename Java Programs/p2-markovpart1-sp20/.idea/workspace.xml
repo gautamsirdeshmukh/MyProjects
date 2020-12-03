@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb68d1cd-4e12-496e-a61d-6796dc490324" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/analysis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/analysis.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/WordGram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WordGram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/WordGramBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WordGramBenchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WordGram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordGram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WordGramBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordGramBenchmark.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WwuVuS8bxdNADNFLEygSNCNyOY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Application.WordGramBenchmark">
+    <configuration name="SimpleWordGramDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleWordGramDriver" />
+      <module name="p2-markovPart1-sp20" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordGramBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordGramBenchmark" />
+      <module name="p2-markovPart1-sp20" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordGramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="p2-markovPart1-sp20" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WordGramTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordGramTest.testHashEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="p2-markovPart1-sp20" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WordGramTest" />
+      <option name="METHOD_NAME" value="testHashEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SimpleWordGramDriver" />
+      <item itemvalue="Application.WordGramBenchmark" />
+      <item itemvalue="JUnit.WordGramTest" />
+      <item itemvalue="JUnit.WordGramTest.testHashEquals" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WordGramBenchmark" />
+        <item itemvalue="JUnit.WordGramTest" />
+        <item itemvalue="Application.SimpleWordGramDriver" />
+        <item itemvalue="JUnit.WordGramTest.testHashEquals" />
+        <item itemvalue="Application.WordGramBenchmark" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb68d1cd-4e12-496e-a61d-6796dc490324" name="Default Changelist" comment="" />
+      <created>1569267115806</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569267115806</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="160" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581485388972">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="160" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.822@0.0.1440.822" timestamp="1581478419887" />
+    <state x="160" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1581485388972" />
+    <state x="508" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1581304113898">
+      <screen x="0" y="0" width="1440" height="822" />
+    </state>
+    <state x="508" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1440.822@0.0.1440.822" timestamp="1581304113898" />
+    <state x="433" y="242" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581485387602">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="433" y="221" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.822@0.0.1440.822" timestamp="1581478419108" />
+    <state x="433" y="242" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1581485387602" />
+    <state x="544" y="326" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581302451923">
+      <screen x="0" y="0" width="1440" height="822" />
+    </state>
+    <state x="544" y="326" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.822@0.0.1440.822" timestamp="1581302451923" />
+    <state width="1191" height="282" key="GridCell.Tab.0.bottom" timestamp="1581561770314">
+      <screen x="0" y="0" width="1440" height="822" />
+    </state>
+    <state width="1191" height="282" key="GridCell.Tab.0.bottom/0.0.1440.822@0.0.1440.822" timestamp="1581561770314" />
+    <state width="1229" height="247" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581486130673" />
+    <state width="1191" height="282" key="GridCell.Tab.0.center" timestamp="1581561770314">
+      <screen x="0" y="0" width="1440" height="822" />
+    </state>
+    <state width="1191" height="282" key="GridCell.Tab.0.center/0.0.1440.822@0.0.1440.822" timestamp="1581561770314" />
+    <state width="1229" height="247" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581486130672" />
+    <state width="1191" height="282" key="GridCell.Tab.0.left" timestamp="1581561770314">
+      <screen x="0" y="0" width="1440" height="822" />
+    </state>
+    <state width="1191" height="282" key="GridCell.Tab.0.left/0.0.1440.822@0.0.1440.822" timestamp="1581561770314" />
+    <state width="1229" height="247" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581486130672" />
+    <state width="1191" height="282" key="GridCell.Tab.0.right" timestamp="1581561770314">
+      <screen x="0" y="0" width="1440" height="822" />
+    </state>
+    <state width="1191" height="282" key="GridCell.Tab.0.right/0.0.1440.822@0.0.1440.822" timestamp="1581561770314" />
+    <state width="1229" height="247" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581486130673" />
+    <state width="1229" height="247" key="GridCell.Tab.1.bottom" timestamp="1581486130674">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1229" height="247" key="GridCell.Tab.1.bottom/0.0.1440.822@0.0.1440.822" timestamp="1581353132105" />
+    <state width="1229" height="247" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581486130674" />
+    <state width="1229" height="247" key="GridCell.Tab.1.center" timestamp="1581486130674">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1229" height="247" key="GridCell.Tab.1.center/0.0.1440.822@0.0.1440.822" timestamp="1581353132104" />
+    <state width="1229" height="247" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1581486130674" />
+    <state width="1229" height="247" key="GridCell.Tab.1.left" timestamp="1581486130673">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1229" height="247" key="GridCell.Tab.1.left/0.0.1440.822@0.0.1440.822" timestamp="1581353132104" />
+    <state width="1229" height="247" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1581486130673" />
+    <state width="1229" height="247" key="GridCell.Tab.1.right" timestamp="1581486130674">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1229" height="247" key="GridCell.Tab.1.right/0.0.1440.822@0.0.1440.822" timestamp="1581353132105" />
+    <state width="1229" height="247" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1581486130674" />
+    <state x="399" y="331" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581304692485">
+      <screen x="0" y="0" width="1440" height="822" />
+    </state>
+    <state x="399" y="331" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.822@0.0.1440.822" timestamp="1581304692485" />
+    <state x="45" y="33" key="new project wizard" timestamp="1582473753622">
+      <screen x="0" y="0" width="1440" height="822" />
+    </state>
+    <state x="45" y="33" key="new project wizard/0.0.1440.822@0.0.1440.822" timestamp="1582473753622" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/p2_markovPart1_sp20$WordGramTest_testHashEquals.ic" NAME="WordGramTest.testHashEquals Coverage Results" MODIFIED="1581481098796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/p2_markovPart1_sp20$WordGramTest.ic" NAME="WordGramTest Coverage Results" MODIFIED="1581480939943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
